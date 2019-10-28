@@ -5,7 +5,7 @@ The purpose of this project is to pull relevant data from 1 or more instagram pa
 ### Python Dependencies
 	* Python 3.7
 	* Pipenv
-	* Beautiful Soup 4(BS4)
+	* Selenium
 	* CSV(Comma Separated Values)
 
 ## Enivronment Setup
@@ -14,7 +14,7 @@ The purpose of this project is to pull relevant data from 1 or more instagram pa
 
 $ pipenv shell
 $ pipenv install 
-$ ./pullData.py <instagram account(s) textfile>
+$ ./pullData.py <instagram-account(s)-textfile>
 
 ```
 
@@ -22,3 +22,7 @@ $ ./pullData.py <instagram account(s) textfile>
 
 It shall output a csv file which can be accessed or edited through a normal text editor or a spreadsheet application such as Microsoft Excel or Google Docs. Where each account's name will be given an ID and paired with their relevant account data. 
 
+## Limitations 
+	* Currently base code only retrieves the first 24 posts
+	* Numbers scrapped from the web pages are not the accurate counts
+	* Mix of video views and likes in the case of a media post with video
