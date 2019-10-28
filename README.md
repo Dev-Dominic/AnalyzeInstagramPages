@@ -1,4 +1,5 @@
 # Analyzing Instagram Pages
+## Version 1.0
 
 The purpose of this project is to pull relevant data from 1 or more instagram pages, data such as follower, following, number of posts and varous metrics of likes for posts made on each page. 
 
